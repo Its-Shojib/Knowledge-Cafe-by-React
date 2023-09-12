@@ -6,7 +6,7 @@ function App() {
   return (
     <div className='max-w-screen-xl mx-auto px-4 md:px-8 lg:px-12'>
       <Header></Header>
-      <div className='flex'>
+      <div className='flex justify-around items-center'>
         <Blogs></Blogs>
         <Bookmarks></Bookmarks>
       </div>
