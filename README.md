@@ -12,7 +12,9 @@
 - Then create FakeData and then fetch this data using useEffect.
 - Set those data into courses by using useState.
 - Create Header component for showing the website name in the top of the page.
-- Create main component and divide into two part (1) Cards section (2) Carts Section.
+- Create main component and divide into two part 
+   (1) Cards section 
+   (2) Carts Section.
 - Showed every courses into the Cards section and handle the selecting button Event.
 - Added those courses into the Cart section with conditional rendering .
 - Showed toast for duplicate courses and greater than total 20 credit.
