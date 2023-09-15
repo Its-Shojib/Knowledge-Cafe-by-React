@@ -8,5 +8,5 @@ The Features available for Course Registration Project are:
 - Don't allow to assign more than 20 credits
 - Show total price needed for selecting courses
 
-*Step For Managing this Project:
+Step For Managing this Project:
 -
