@@ -3,7 +3,7 @@
 
 # The Features available for Course Registration Project are:
   ## 1. Select Courses:
-    -You can select any courses from this website
+    - You can select any courses from this website
   ## 2. Select Courses upto 20 credit
    - Show how many credit are selected and credit remaining.
   ## 3. Show Warning for duplicate Course
