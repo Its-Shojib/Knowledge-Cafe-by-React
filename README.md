@@ -1,14 +1,13 @@
-# The Features available for Course Registration Project are:
-  ** 1. Select Courses:
-   - You can select any courses from this website
-  ## 2. Select Courses upto 20 credit
-   - Show how many credit are selected and credit remaining.
-  ## 3. Show Warning for duplicate Course
-   - Don't allow to select multiple courses.
-  ## 4. Show warning for more than 20 credit
-   - Don't allow to assign more than 20 credits.
-  ## 5. Calculate total money
-   - Have total price needed for selecting courses.
+# [Course Registration](https://boisterous-donut-f3c513.netlify.app)
+
+The Features available for Course Registration Project are:
+
+* **Select Any Courses:** You can select any courses from this website anytime.
+* **Select Courses upto 20 credit:** You can select any courses upto 20 credit.this website won't allow to more than 20 credit.
+* **Show Warning for duplicate Course:** If you want to add any duplicate course,the website won't allow on that.It reply a warning with a toast.
+* **Show warning for more than 20 credit** This website won't allow to add more than 20 credit.It reply a warning with a toast.
+* **Calculate total money:** This site will automatically calculate the many needed for selecting courses.
+
 
 # How I managed the state in my assignment project:
 - Declare a useState 'Courses' for all courses with an empty array.
@@ -22,3 +21,4 @@
 - Select courses and pass them into selectCourse by event handling
 - Pass those selecting data to the Cart component and display selecting courses.
 - Calculate Total price,total credit and Remaining credit from selecting courses and display those.
+veral sections:
