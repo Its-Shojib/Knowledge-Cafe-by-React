@@ -1,23 +1,27 @@
 # Course Registration
 
-## The Features available for Course Registration Project are:
-- Select any course into the Cart.
-- Show how many credit are selected with credit remaining.
-- Don't allow to select multiple courses.
-- Don't allow to assign more than 20 credits.
-- Show total price needed for selecting courses.
 
-## Step For Managing this Project:
-- Create a React project using vite and install tailwind 
-- Then create FakeData and then fetch this data using useEffect.
-- Set those data into courses by using useState.
-- Create Header component for showing the website name in the top of the page.
-- Create main component and divide into two part 
+# The Features available for Course Registration Project are:
+  ## 1. Select Courses:
+    -You can select any courses from this website
+  ## 2. Select Courses upto 20 credit
+   - Show how many credit are selected and credit remaining.
+  ## 3. Show Warning for duplicate Course
+   - Don't allow to select multiple courses.
+  ## 4. Show warning for more than 20 credit
+   - Don't allow to assign more than 20 credits.
+  ## 5. Calculate total money
+   - Have total price needed for selecting courses.
+
+# How I managed the state in my assignment project:
+- Declare a useState 'Courses' for all courses with an empty array.
+- Take data from useEffect and set into courses.
+- Create main component and divide into two part: 
    (1) Cards section 
    (2) Carts Section.
+- Pass the Courses data to the Cards Component and set into Cards
 - Showed every courses into the Cards section and handle the selecting button Event.
-- Added those courses into the Cart section with conditional rendering .
-- Showed toast for duplicate courses and greater than total 20 credit.
-- Calculate total credit and showed into Cart section with remaining credit.
-- Calculate Total price needed for selecting those courses into cart section and Showed into the below Cart section.
-- Lastly fixed every bug and added documentation to this project
+- Declare another useState 'selectedCourse' for selecting courses.
+- Select courses and pass them into selectCourse by event handling
+- Pass those selecting data to the Cart component and display selecting courses.
+- Calculate Total price,total credit and Remaining credit from selecting courses and display those.
