@@ -1,6 +1,6 @@
 # [Course Registration](https://boisterous-donut-f3c513.netlify.app)
 
-The Features available for Course Registration Project are:
+# The Features available for Course Registration Project are:
 
 * **Select Any Courses:** You can select any courses from this website anytime.
 * **Select Courses upto 20 credit:** You can select any courses upto 20 credit.this website won't allow to more than 20 credit.
